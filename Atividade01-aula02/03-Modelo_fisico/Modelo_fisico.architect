@@ -162,12 +162,12 @@
    <relationship id="REL44" populated="true" UUID="61d538ad-d381-4423-8406-1cd14c6cf03a" deferrability="7" deleteRule="3" fk-table-ref="TAB33" fkCardinality="7" identifying="false" name="Produto_Pedido_fk" physicalName="Produto_Pedido_fk" pk-table-ref="TAB25" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP45" populated="true" UUID="c1975958-b935-40e4-bc64-d06845061797" fk-column-ref="COL37" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL26" />
    </relationship>
-   <relationship id="REL46" populated="true" UUID="e4937100-f3c7-4d00-a078-400706a6be53" deferrability="7" deleteRule="3" fk-table-ref="TAB18" fkCardinality="3" identifying="false" name="Pedido_Venda_fk" physicalName="Pedido_Venda_fk" pk-table-ref="TAB33" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP47" populated="true" UUID="369a3fc3-993c-4db8-9670-f756fd704b77" fk-column-ref="COL22" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL34" />
+   <relationship id="REL46" populated="true" UUID="e4937100-f3c7-4d00-a078-400706a6be53" deferrability="7" deleteRule="3" fk-table-ref="TAB18" fkCardinality="3" identifying="false" name="Pedido_Venda_fk" physicalName="Pedido_Venda_fk" pk-table-ref="TAB33" pkCardinality="6" updateRule="3" >
+    <column-mapping id="CMP47" populated="true" UUID="20a8024e-7993-4f4d-bbf6-999dfe896b8b" fk-column-ref="COL22" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL34" />
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="true" target-schema="public"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
